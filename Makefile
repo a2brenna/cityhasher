@@ -16,7 +16,7 @@ uninstall:
 	rm -f ${DESTDIR}/${PREFIX}/bin/cityhasher
 
 cityhasher: src/cityhasher.cc
-	${CXX} ${CXXFLAGS} src/cityhasher.cc -o cityhasher -lboost_program_options
+	${CXX} ${CXXFLAGS} src/cityhasher.cc -o cityhasher -lboost_program_options -lcityhash
 
 clean:
 	rm -f *.o
