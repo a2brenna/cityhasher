@@ -1,0 +1,6 @@
+cityhasher
+*.a
+*.so
+*.o
+*.swp
+*.swo

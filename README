@@ -1,0 +1,2 @@
+This is a simple commandline wrapper for the CityHash function as implemented 
+at https://github.com/google/cityhash.
