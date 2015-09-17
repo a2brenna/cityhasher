@@ -1,2 +1,4 @@
-This is a simple commandline wrapper for the CityHash function as implemented 
-at https://github.com/google/cityhash.
+This is a simple commandline wrapper for the CityHash64 function as
+implemented at https://github.com/google/cityhash.
+
+WARNING: When piping data to stdin for hashing beware trailing newlines.
